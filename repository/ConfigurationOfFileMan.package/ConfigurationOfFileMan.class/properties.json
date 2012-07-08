@@ -1,0 +1,14 @@
+{
+	"category" : "ConfigurationOfFileMan",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project" ],
+	"name" : "ConfigurationOfFileMan",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

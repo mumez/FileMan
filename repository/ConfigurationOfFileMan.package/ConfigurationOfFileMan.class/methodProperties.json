@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"bootstrapPackage:from:" : "mu 10/25/2010 23:15",
+		"ensureMetacello" : "mu 10/25/2010 23:15",
+		"isMetacelloConfig" : "mu 10/25/2010 23:15",
+		"lastMetacelloVersionLoad" : "mu 10/25/2010 23:15",
+		"load" : "mu 10/25/2010 23:15",
+		"metacelloVersion:loads:" : "mu 10/25/2010 23:15",
+		"project" : "mu 10/25/2010 23:15",
+		"unloadMetacello" : "mu 10/25/2010 23:15" },
+	"instance" : {
+		"baseline03:" : "mu 3/31/2011 16:57",
+		"project" : "mu 10/25/2010 23:15",
+		"version037:" : "mu 10/25/2010 23:42",
+		"version038:" : "mu 6/3/2012 13:39" } }
