@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"directoryEntryClass" : "mu 5/4/2007 19:04",
+		"fileEntryClass" : "mu 5/4/2007 23:16" },
+	"instance" : {
+		"at:put:" : "mu 5/4/2007 19:06",
+		"backupAt:" : "mu 5/4/2007 19:08",
+		"backupBinaryAt:" : "mu 5/4/2007 19:09",
+		"binaryAt:put:" : "mu 5/4/2007 19:07" } }

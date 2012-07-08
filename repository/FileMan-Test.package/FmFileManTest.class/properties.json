@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Test",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mu 5/16/2007 21:01",
+	"instvars" : [
+		 ],
+	"name" : "FmFileManTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

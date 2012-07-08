@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"defaultDirectoryPath" ],
+	"name" : "FmFileIOAccessor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

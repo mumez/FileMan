@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Example",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mu 3/29/2009 23:56",
+	"instvars" : [
+		 ],
+	"name" : "FmGZipDirectoryEntry",
+	"pools" : [
+		 ],
+	"super" : "FmDirectoryEntry",
+	"type" : "normal" }

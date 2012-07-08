@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Example",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "FmBackgroundDirectoryEntry",
+	"pools" : [
+		 ],
+	"super" : "FmDirectoryEntry",
+	"type" : "normal" }

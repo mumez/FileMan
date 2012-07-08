@@ -1,0 +1,3 @@
+accessing
+defaultDirectoryPath
+	^self default defaultDirectoryPath

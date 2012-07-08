@@ -1,0 +1,3 @@
+private
+directoryEntryForTest
+	^'./fmTestDir' asDirectoryEntry

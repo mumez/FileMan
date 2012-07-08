@@ -1,0 +1,3 @@
+accessing
+concreteStreamClass
+	^FileStream concreteStream

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"directoryEntryClass" : "mu 5/4/2007 18:58",
+		"fileEntryClass" : "mu 5/4/2007 23:22" },
+	"instance" : {
+		"asSuffixedName:" : "mu 5/4/2007 17:04",
+		"at:" : "mu 5/4/2007 17:05",
+		"at:put:" : "mu 5/4/2007 17:05",
+		"binaryAt:" : "mu 5/4/2007 17:06",
+		"binaryAt:put:" : "mu 5/4/2007 17:06",
+		"contentsOf:by:" : "mu 3/29/2009 23:55",
+		"includesKey:" : "mu 5/4/2007 17:31",
+		"removeKey:ifAbsent:" : "mu 5/4/2007 17:31",
+		"setContentsOf:to:by:" : "mu 3/29/2009 23:55",
+		"textConverterClass" : "mu 5/4/2007 16:49" } }

@@ -1,0 +1,3 @@
+private
+defaultDirectoryPath
+	^FmFileIOAccessor defaultDirectoryPath

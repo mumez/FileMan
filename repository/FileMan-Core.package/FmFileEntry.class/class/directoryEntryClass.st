@@ -1,0 +1,4 @@
+factory
+directoryEntryClass
+	"override"
+	^FmDirectoryEntry

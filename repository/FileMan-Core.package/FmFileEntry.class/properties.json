@@ -1,0 +1,22 @@
+{
+	"category" : "FileMan-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mu 11/6/2006 20:21",
+	"instvars" : [
+		"drive",
+		"pathComponents",
+		"parent",
+		"name",
+		"fileSize",
+		"creationTime",
+		"modificationTime",
+		"isDirectory",
+		"options" ],
+	"name" : "FmFileEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
