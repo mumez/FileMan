@@ -9,8 +9,10 @@
 		"roots" : "mu 3/3/2007 10:15" },
 	"instance" : {
 		"allChildrenDo:" : "mu 9/13/2006 19:45",
+		"allChildrenDo:filesMatches:directoryMatches:" : "MasashiUmezawa 7/8/2012 21:55",
 		"allDirectoriesDo:" : "mu 9/13/2006 19:49",
 		"allFilesDo:" : "mu 9/13/2006 19:54",
+		"allFilesDo:matches:" : "MasashiUmezawa 7/8/2012 22:00",
 		"asDirectoryEntry" : "mu 9/21/2006 10:21",
 		"asFileDirectory" : "mu 3/14/2007 19:06",
 		"assureExistence" : "mu 3/15/2007 13:09",
@@ -26,6 +28,7 @@
 		"binaryAt:put:" : "mu 9/21/2006 10:07",
 		"children" : "mu 6/11/2006 17:37",
 		"childrenDo:" : "mu 9/13/2006 19:43",
+		"childrenDo:filesMatches:directoryMatches:" : "MasashiUmezawa 7/8/2012 21:45",
 		"copyTo:" : "mu 10/25/2010 22:44",
 		"delete" : "mu 3/15/2007 19:52",
 		"directories" : "mu 6/11/2006 17:26",
