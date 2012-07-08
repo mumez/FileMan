@@ -2,6 +2,7 @@
 	"category" : "FileMan-Core",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "{}",
 	"classvars" : [
 		 ],
 	"commentStamp" : "mu 11/6/2006 20:21",
@@ -11,4 +12,5 @@
 	"pools" : [
 		 ],
 	"super" : "FmFileEntry",
+	"traitcomposition" : "{}",
 	"type" : "normal" }
