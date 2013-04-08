@@ -1,3 +1,3 @@
 accessing exception
 fileDoesNotExistException
-	^FileDoesNotExistException
+	^self dialectUtilClass fileDoesNotExistException

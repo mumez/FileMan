@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Adaptor-FileDirectory",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"defaultDirectoryPath" ],
+	"name" : "FmFileDirectoryFileIOAccessor",
+	"pools" : [
+		 ],
+	"super" : "FmFileIOAccessor",
+	"type" : "normal" }

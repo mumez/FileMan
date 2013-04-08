@@ -1,5 +1,7 @@
 class initialization
 obsolete
 	self initDefault.
-	self removeFromStartUpList.
+	self initLibrarySpecificClass.
+	self initDialectUtilClass.
+	self dialectUtilClass removeFromStartUpList: self.
 	super obsolete.

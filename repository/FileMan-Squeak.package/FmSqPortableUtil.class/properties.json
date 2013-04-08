@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FmSqPortableUtil",
+	"pools" : [
+		 ],
+	"super" : "FmPortableUtil",
+	"type" : "normal" }

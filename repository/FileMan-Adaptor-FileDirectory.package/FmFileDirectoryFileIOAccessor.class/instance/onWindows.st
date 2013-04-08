@@ -1,0 +1,3 @@
+testing
+onWindows
+	^self pathNameDelimiter = $\

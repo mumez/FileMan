@@ -1,16 +1,16 @@
 {
 	"category" : "FileMan-Core",
 	"classinstvars" : [
-		"default" ],
-	"classtraitcomposition" : "{}",
+		"default",
+		"librarySpecificClass",
+		"dialectUtilClass" ],
 	"classvars" : [
-		 ],
+		"Default" ],
 	"commentStamp" : "<historical>",
 	"instvars" : [
-		"defaultDirectoryPath" ],
+		 ],
 	"name" : "FmFileIOAccessor",
 	"pools" : [
 		 ],
 	"super" : "Object",
-	"traitcomposition" : "{}",
 	"type" : "normal" }

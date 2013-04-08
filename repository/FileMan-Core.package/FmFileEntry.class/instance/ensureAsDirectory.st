@@ -1,0 +1,3 @@
+converting
+ensureAsDirectory
+	^self asDirectoryEntry

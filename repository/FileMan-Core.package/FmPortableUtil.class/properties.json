@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FmPortableUtil",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

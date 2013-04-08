@@ -2,7 +2,7 @@ testing
 testRecursiveDelete
 	"FmFileManTest debug: #testRecursiveDelete" 
 	| dir |
-	dir := ('./subDir' / 'aaa\bbb' / 'ccc' / 'ddd\eee' / 'fff:ggg') asDirectoryEntry.
+	dir := ('./subDir' asDirectoryEntry / 'aaa\bbb' / 'ccc' / 'ddd\eee' / 'fff:ggg').
 	dir at: 'test1' put: 'RecursiveDelete!'.
 	self should: [(dir at: 'test1') = 'RecursiveDelete!'].
 

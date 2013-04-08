@@ -7,8 +7,7 @@ example7
 	releaseDir := './releasePkg' asDirectoryEntry.
 	releaseDir keys isEmpty ifFalse: [releaseDir recursiveDelete].
 	dir := './package-cache' asDirectoryEntry.
-	fileNames := (dir keys collect: [:each | each name upTo: $.] thenSelect: [:each | each notEmpty]).
-	(fileNames asSet
-		collect: [:eachName | dir
+	fileNames := ((dir keys collect: [:each | each name readStream upTo: $.]) select: [:each | each notEmpty]) asSet.
+	(fileNames collect: [:eachName | dir
 				latestFileMatches: [:each | each name beginsWith: eachName]])
 		do: [:eachEnt | eachEnt copyTo: releaseDir]

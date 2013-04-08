@@ -1,0 +1,3 @@
+actions
+pathNameDelimiter
+	^self primPathNameDelimiter

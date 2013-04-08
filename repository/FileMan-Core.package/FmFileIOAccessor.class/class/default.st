@@ -1,4 +1,8 @@
 instance creation
 default
-	default isNil ifTrue: [default := self new].
-	^default
+	Default isNil
+		ifTrue: [| fileLibClass |
+			fileLibClass := self librarySpecificClass.
+			fileLibClass notNil
+				ifTrue: [Default := fileLibClass new]].
+	^ Default

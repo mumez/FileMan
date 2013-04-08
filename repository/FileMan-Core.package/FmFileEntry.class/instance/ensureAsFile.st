@@ -1,0 +1,3 @@
+converting
+ensureAsFile
+	^self

@@ -1,4 +1,4 @@
 class initialization
 obsolete
-	self removeFromStartUpList.
+	FmFileIOAccessor dialectUtilClass removeFromStartUpList: self.
 	super obsolete

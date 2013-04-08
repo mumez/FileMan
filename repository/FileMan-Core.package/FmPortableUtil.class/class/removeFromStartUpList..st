@@ -1,0 +1,3 @@
+actions
+removeFromStartUpList: aClass
+	self subclassResponsibility

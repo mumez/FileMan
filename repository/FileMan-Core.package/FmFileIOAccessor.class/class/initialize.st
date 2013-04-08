@@ -1,5 +1,6 @@
 class initialization
 initialize
-	"FmFileAccessor initialize"
-	self addToStartUpList.
-	self initDefault
+	"FmFileIOAccessor initialize"
+	self initLibrarySpecificClass.
+	self initDialectUtilClass.
+	self initDefault.

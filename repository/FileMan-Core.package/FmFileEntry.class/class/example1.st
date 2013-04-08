@@ -6,13 +6,13 @@ example1
 	 - Put a new file named: 'file1'.
 	 - Write contents 'Hello! to that file'"
 
-	"Traditional way"
-	| subDir str |
+	"Traditional way (Squeak)"
+	"| subDir str |
 	subDir := FileDirectory default directoryNamed: 'subDir'.
 	subDir assureExistence.
 	[str := subDir newFileNamed: 'file1'.
 	str nextPutAll: 'Hello!']
-		ensure: [str close].
+		ensure: [str close]."
 
 	"FileMan"
 
