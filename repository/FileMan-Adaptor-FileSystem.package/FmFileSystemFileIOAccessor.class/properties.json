@@ -1,0 +1,14 @@
+{
+	"category" : "FileMan-Adaptor-FileSystem",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "FmFileSystemFileIOAccessor",
+	"pools" : [
+		 ],
+	"super" : "FmFileIOAccessor",
+	"type" : "normal" }
