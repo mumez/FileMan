@@ -1,15 +1,14 @@
 initialize-release
 pathName: aString 
-	| path tokens |
+	| path tokens guessedDriveName |
 	path := aString asAbsolutePathName.
 	tokens := path findTokens: self slash.
 	tokens ifEmpty: [^ nil].
-	(self onUnix and: [path beginsWithPathSeparator]) ifTrue: [
-		^ self pathComponents: ((path beginsWith: '/') ifTrue: [tokens] ifFalse: [path asPathTokens])].
-	tokens size = 1
-		ifTrue: [
-			path isPathSeparator ifTrue: [^self].
-			self isDriveSupported
-				 ifTrue: [^self setDriveNameAndPathComponentsFrom: aString].
-			 ^self pathName: (self directoryEntryClass default concat: aString) pathName].
+	self isDriveSupported
+		 ifTrue: [
+			guessedDriveName := tokens first asDriveName.
+			guessedDriveName isDriveName
+				ifTrue: [
+					self drive: guessedDriveName.
+					tokens _ tokens copyFrom: 2 to: tokens size.]].
 	self pathComponents: tokens

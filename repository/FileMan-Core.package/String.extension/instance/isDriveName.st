@@ -1,10 +1,11 @@
 *fileman-core-testing
 isDriveName
 	FmFileIOAccessor default onWindows
-		ifTrue: [^ (self size between: 2 and: 3)
-				and: [(self second = $:)
-						and: [self first asCharacter isDriveLetter]]].
+		ifTrue: [
+			^ (self size between: 2 and: 3)
+				and: [self beginsWithWindowsDriveName]].
 
-	FmFileIOAccessor default onMac ifTrue: [^FileDirectory root directoryNames includes: self].
+	FmFileIOAccessor default onMac ifTrue: [
+		^FileDirectory root directoryNames includes: self].
 
 	^false
