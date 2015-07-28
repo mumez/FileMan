@@ -1,14 +1,25 @@
 FileMan
 =======
 
+## Overview ##
 FileMan is a thin wrapper for various Smalltalk file libraries. It provides simple, portable interfaces for manipulating files and directories.
 
-Currently, FileMan can wrap three different Smalltalk file libraries.
+Currently, FileMan can wrap those different Smalltalk file libraries.
 
-- FileDirectory (Squeak)
+- FileDirectory (Squeak, Cuis)
 - FileSystem (Pharo)
-- Filename (VisualWorks) -- will be put to github soon
+- Filename (VisualWorks)
 
+This repository is mainly for Pharo and Squeak.
+
+### Cuis version ###
+- [Repository for Cuis version](https://github.com/mumez/Cuis-Smalltalk-FileMan)
+
+[Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) is now replacing FileDirectory with FileMan. FileMan is already bundled on standard Cuis-dev image!  
+
+### VW version ###
+
+VW version is available on [Public StORE repository](http://www.cincomsmalltalk.com/publicRepository/). Please load FileMan(Bundle) from StORE.
 
 ## Example code ##
 <pre>
