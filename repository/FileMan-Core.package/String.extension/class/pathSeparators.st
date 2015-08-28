@@ -1,0 +1,3 @@
+*fileman-core-constants
+pathSeparators
+	^'\:/'

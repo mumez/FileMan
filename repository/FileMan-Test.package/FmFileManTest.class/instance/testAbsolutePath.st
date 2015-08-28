@@ -14,13 +14,11 @@ testAbsolutePath
 	self should: [dirEntry2 = ':temp:a' asDirectoryEntry].
 	self should: [dirEntry2 = '\temp\a' asDirectoryEntry].
 
-	"Platform specific path tests"
-	FmFileIOAccessor default onWindows ifTrue: [
 	dirEntry3 := 'C:/temp/b' asDirectoryEntry.
 	self should: [dirEntry3 = 'C:\temp\b' asDirectoryEntry].
 	self should: [dirEntry3 = 'C::temp:b' asDirectoryEntry].
-	].
 
+	"Platform specific path tests"
 	FmFileIOAccessor default onMac ifTrue: [
 	dirEntry4 := 'Macintosh HD:tmp' asDirectoryEntry.
 	self should: [dirEntry4 = 'Macintosh HD/tmp' asDirectoryEntry].

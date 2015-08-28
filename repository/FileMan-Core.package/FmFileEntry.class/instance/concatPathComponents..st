@@ -1,12 +1,13 @@
 actions-path
-concatPathComponents: components 
-	| entry |
-	components ifEmpty: [^self].
-
-	entry := self fileEntryClass pathComponents: (self pathComponents copy addAll: components;
-			 yourself) drive: self drive.
-
-	self isRoot ifFalse: [
-		entry parent: self asDirectoryEntry.
-	].
+concatPathComponents: components
+	| entry entryComponents parentEntry |
+	components ifEmpty: [ ^self ].
+	parentEntry := self isRoot ifFalse: [ self ].
+	entryComponents := self pathComponents.
+	components do: [ :eachComponent |
+		entryComponents := entryComponents copyWith: eachComponent.
+		entry := self fileEntryClass pathComponents: entryComponents drive: self drive.
+		parentEntry ifNotNil: [
+			entry setParent: parentEntry asDirectoryEntry ].
+		parentEntry := entry ].
 	^entry

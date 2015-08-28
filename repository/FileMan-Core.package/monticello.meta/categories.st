@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #'FileMan-Core'!
+SystemOrganization addCategory: #'FileMan-Core'!
