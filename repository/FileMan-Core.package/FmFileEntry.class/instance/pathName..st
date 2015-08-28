@@ -10,5 +10,5 @@ pathName: aString
 			guessedDriveName isDriveName
 				ifTrue: [
 					self drive: guessedDriveName.
-					tokens _ tokens copyFrom: 2 to: tokens size.]].
+					tokens := tokens copyFrom: 2 to: tokens size.]].
 	self pathComponents: tokens
