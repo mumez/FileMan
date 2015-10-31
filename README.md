@@ -13,13 +13,32 @@ Currently, FileMan can wrap those different Smalltalk file libraries.
 This repository is mainly for Pharo and Squeak.
 
 ### Cuis version ###
-- [Repository for Cuis version](https://github.com/mumez/Cuis-Smalltalk-FileMan)
 
-[Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) is now replacing FileDirectory with FileMan. FileMan is already bundled on standard Cuis-dev image!  
+[Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) now includes FileMan as a default file library.
+[Repository for Cuis version](https://github.com/mumez/Cuis-Smalltalk-FileMan) is kept for historical reasons.
 
 ### VW version ###
 
 VW version is available on [Public StORE repository](http://www.cincomsmalltalk.com/publicRepository/). Please load FileMan(Bundle) from StORE.
+
+## Installation ##
+
+### Squeak
+```
+Installer squeaksource
+    project: 'MetacelloRepository';
+    install: 'ConfigurationOfFileMan'. 
+(Smalltalk at: #ConfigurationOfFileMan) perform: #load.
+```
+
+### Pharo
+```
+Gofer it
+      url: 'http://squeaksource.com/MetacelloRepository';
+      package: 'ConfigurationOfFileMan';
+      load.
+(Smalltalk at: #ConfigurationOfFileMan) perform: #load.
+```
 
 ## Example code ##
 <pre>
