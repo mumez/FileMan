@@ -1,5 +1,5 @@
 accessing-file name
-extension
+firstName
 	| names |
 	names := self dialectUtilClass splitName: self name by: self extensionDelimiter.
-	^names last
+	^names first

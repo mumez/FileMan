@@ -1,3 +1,3 @@
 accessing-file name
 nameVersionExtension
-	^self fileAccessor splitNameVersionExtensionFor: self name
+	^self dialectUtilClass splitNameVersionExtensionFor: self name by: self extensionDelimiter	

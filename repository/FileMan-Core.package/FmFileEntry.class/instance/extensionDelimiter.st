@@ -1,0 +1,3 @@
+accessing
+extensionDelimiter
+	^self fileAccessor extensionDelimiter
