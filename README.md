@@ -21,6 +21,25 @@ This repository is mainly for Pharo and Squeak.
 
 VW version is available on [Public StORE repository](http://www.cincomsmalltalk.com/publicRepository/). Please load FileMan(Bundle) from StORE.
 
+## Installation ##
+
+### Squeak
+```
+Installer squeaksource
+    project: 'MetacelloRepository';
+    install: 'ConfigurationOfFileMan'. 
+(Smalltalk at: #ConfigurationOfFileMan) perform: #load.
+```
+
+### Pharo
+```
+Gofer it
+      url: 'http://squeaksource.com/MetacelloRepository';
+      package: 'ConfigurationOfFileMan';
+      load.
+(Smalltalk at: #ConfigurationOfFileMan) perform: #load.
+```
+
 ## Example code ##
 <pre>
 "Before (legacy Squeak)"
