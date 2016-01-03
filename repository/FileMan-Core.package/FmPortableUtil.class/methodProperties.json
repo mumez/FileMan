@@ -2,6 +2,9 @@
 	"class" : {
 		"addToStartUpList:" : "mu 3/26/2013 01:19",
 		"fileDoesNotExistException" : "mu 3/24/2013 00:47",
-		"removeFromStartUpList:" : "mu 3/26/2013 01:19" },
+		"joinNames:by:" : "MasashiUmezawa 10/31/2015 21:21",
+		"removeFromStartUpList:" : "mu 3/26/2013 01:19",
+		"splitName:by:" : "MasashiUmezawa 10/31/2015 21:12",
+		"splitNameVersionExtensionFor:by:" : "MasashiUmezawa 10/31/2015 22:13" },
 	"instance" : {
 		 } }
