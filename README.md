@@ -13,9 +13,9 @@ Currently, FileMan can wrap those different Smalltalk file libraries.
 This repository is mainly for Pharo and Squeak.
 
 ### Cuis version ###
-- [Repository for Cuis version](https://github.com/mumez/Cuis-Smalltalk-FileMan)
 
-[Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) is now replacing FileDirectory with FileMan. FileMan is already bundled on standard Cuis-dev image!  
+[Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) now includes FileMan as a default file library.
+[Repository for Cuis version](https://github.com/mumez/Cuis-Smalltalk-FileMan) is kept for historical reasons.
 
 ### VW version ###
 
