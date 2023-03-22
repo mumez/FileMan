@@ -13,7 +13,8 @@ baseline: spec
 		spec package: 'FileMan-Example' with: [spec requires: #('FileMan-Core' 'Dialect')].
 		spec package: 'FileMan-Test' with: [spec requires: #('FileMan-Core' 'Dialect')].
 		
-		spec for: #squeak do: [	
+		spec for: #squeak do: [
+			spec package: 'FileMan-Overrides-Squeak' with: [spec requires: #('FileMan-Core' 'Dialect')].
 			spec group: 'Dialect' with: #('FileMan-Overrides-Squeak').
 			spec group: 'Adapter' with: #('FileMan-Adaptor-FileDirectory').
 		].
