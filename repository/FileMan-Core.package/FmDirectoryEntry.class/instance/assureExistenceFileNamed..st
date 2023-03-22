@@ -5,6 +5,6 @@ assureExistenceFileNamed: localName
 	(self fileAccessor fileOrDirectoryExists: localName in: self pathName) ifTrue: [^ self]. "exists"
 
 	"otherwise check parent first and then create local dir"
-	self parent ifNotNilDo: [:p | p assureExistenceFileNamed: self name].
+	self parent ifNotNil: [:p | p assureExistenceFileNamed: self name].
 
 	self fileAccessor createDirectory: (self / localName) pathName

@@ -1,14 +1,13 @@
 {
-	"category" : "FileMan-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "mu 11/6/2006 20:21",
-	"instvars" : [
-		"children" ],
-	"name" : "FmDirectoryEntry",
-	"pools" : [
-		 ],
 	"super" : "FmFileEntry",
-	"type" : "normal" }
+	"category" : "FileMan-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"children"
+	],
+	"name" : "FmDirectoryEntry",
+	"type" : "normal"
+}

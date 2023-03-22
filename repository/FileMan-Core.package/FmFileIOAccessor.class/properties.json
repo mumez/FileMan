@@ -1,16 +1,17 @@
 {
+	"commentStamp" : "<historical>",
+	"super" : "Object",
 	"category" : "FileMan-Core",
 	"classinstvars" : [
 		"default",
 		"librarySpecificClass",
-		"dialectUtilClass" ],
+		"dialectUtilClass"
+	],
+	"pools" : [ ],
 	"classvars" : [
-		"Default" ],
-	"commentStamp" : "<historical>",
-	"instvars" : [
-		 ],
+		"Default"
+	],
+	"instvars" : [ ],
 	"name" : "FmFileIOAccessor",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

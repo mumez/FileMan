@@ -1,10 +1,10 @@
 {
-	"category" : "FileMan-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "mu 11/6/2006 20:21",
+	"super" : "Object",
+	"category" : "FileMan-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"drive",
 		"pathComponents",
@@ -14,9 +14,8 @@
 		"creationTime",
 		"modificationTime",
 		"isDirectory",
-		"options" ],
+		"options"
+	],
 	"name" : "FmFileEntry",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}
