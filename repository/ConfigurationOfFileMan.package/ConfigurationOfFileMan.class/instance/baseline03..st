@@ -5,7 +5,7 @@ baseline03: spec
 	spec for: #common do:[
 		spec blessing: #baseline.
 		spec repository: 'http://www.squeaksource.com/FileMan'.
-		spec repository: 'http://squeaksource.blueplane.jp/FileMan'.
+		spec repository: 'https://squeaksource.blueplane.jp/FileMan'.
 		spec description: 'FileMan 0.3 baseline'.
 		
 		spec package: 'FileMan-Core'.
