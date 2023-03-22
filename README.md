@@ -1,7 +1,7 @@
-FileMan
-=======
+# FileMan
 
-## Overview ##
+## Overview
+
 FileMan is a thin wrapper for various Smalltalk file libraries. It provides simple, portable interfaces for manipulating files and directories.
 
 Currently, FileMan can wrap those different Smalltalk file libraries.
@@ -12,36 +12,38 @@ Currently, FileMan can wrap those different Smalltalk file libraries.
 
 This repository is mainly for Pharo and Squeak.
 
-### Cuis version ###
+### Cuis version
 
 [Cuis](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) now includes FileMan as a default file library.
 [Repository for Cuis version](https://github.com/mumez/Cuis-Smalltalk-FileMan) is kept for historical reasons.
 
-### VW version ###
+### VW version
 
 VW version is available on [Public StORE repository](http://www.cincomsmalltalk.com/publicRepository/). Please load FileMan(Bundle) from StORE.
 
-## Installation ##
+## Installation
 
-### Squeak
+### Pharo & Squeak
+
+```smalltalk
+Metacello new
+  baseline: 'FileMan';
+  repository: 'github://mumez/FileMan/repository';
+  load.
 ```
+
+### Older Squeak (before version 5.3)
+
+```smalltalk
 Installer squeaksource
     project: 'MetacelloRepository';
     install: 'ConfigurationOfFileMan'. 
 (Smalltalk at: #ConfigurationOfFileMan) perform: #load.
 ```
 
-### Pharo
-```
-Gofer it
-      url: 'http://squeaksource.com/MetacelloRepository';
-      package: 'ConfigurationOfFileMan';
-      load.
-(Smalltalk at: #ConfigurationOfFileMan) perform: #load.
-```
+## Example code
 
-## Example code ##
-<pre>
+```smalltalk
 "Before (legacy Squeak)"
 subDir := FileDirectory default directoryNamed: 'subDir'.
 subDir assureExistence.
@@ -51,6 +53,6 @@ ensure: [str close].
 
 "After installation of FileMan"
 './subDir' asDirectoryEntry at: 'file2' put: 'Hello!'
-</pre>
+```
 
 By installing FileMan, you can write simple, portable file manipulation code in different Smalltalk dialects/file libraries. 
